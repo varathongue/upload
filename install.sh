@@ -27,7 +27,7 @@ case "$1" in
    'run')
       screen -d -S upload -m ./upload.sh
       ;;
-   'update')
+   'update-list')
       update_list
       ;;
 esac
