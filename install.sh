@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 update_list(){
-	if curl -LJ https://raw.githubusercontent.com/varathongue/upload/main/list-ip.txt -o new-ip-list.txt; then
+	if curl -LJ https://raw.githubusercontent.com/varathongue/upload/main/ip-list.txt -o new-ip-list.txt; then
 		mv new-ip-list.txt ip-list.txt
 	else
 		echo "couldn't download ip list"
